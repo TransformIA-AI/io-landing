@@ -5,5 +5,9 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true
   },
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
   "include": ["vite.config.ts", "vitest.config.ts"]
+=======
+  "include": ["vite.config.ts"]
+ main
 }

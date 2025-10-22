@@ -1,5 +1,11 @@
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
   <title id="title">IO Favicon</title>
+=======
+<svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">IO Resonance</title>
+  <desc id="desc">Circular mark with central point</desc>
+ main
   <defs>
     <radialGradient id="ioGold" cx="50%" cy="50%" r="60%">
       <stop offset="0%" stop-color="#F8E08E" />
@@ -7,7 +13,12 @@
       <stop offset="100%" stop-color="#C89D2A" />
     </radialGradient>
   </defs>
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
   <rect width="100" height="100" rx="20" fill="#0B0F14" />
   <circle cx="50" cy="50" r="38" fill="none" stroke="url(#ioGold)" stroke-width="10" />
   <circle cx="50" cy="50" r="15" fill="#5C7CFA" />
+=======
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#ioGold)" stroke-width="8" />
+  <circle cx="50" cy="50" r="10" fill="#5C7CFA" />
+ main
 </svg>

@@ -1,3 +1,4 @@
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
 import { useMemo, useState } from 'react';
 import { LanguageSelector } from './components/LanguageSelector';
 import { LeadCaptureForm } from './components/LeadCaptureForm';
@@ -35,11 +36,35 @@ function SectionCard({ title, items }: { title: string; items: readonly string[]
           </li>
         ))}
       </ul>
+=======
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
+import { Hero } from './sections/Hero';
+import { Features } from './sections/Features';
+import { Stack } from './sections/Stack';
+import { UseCases } from './sections/UseCases';
+import { Speech } from './sections/Speech';
+import { Brand } from './sections/Brand';
+import { LanguageProvider } from './hooks/useLanguage';
+
+function AppContent() {
+  return (
+    <div className="min-h-screen bg-io-deep-space px-6 pb-20 pt-10 text-white sm:px-10 lg:px-24">
+      <Header />
+      <Hero />
+      <Features />
+      <Stack />
+      <Speech />
+      <UseCases />
+      <Brand />
+      <Footer />
+ main
     </div>
   );
 }
 
 export default function App() {
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
   const [language, setLanguage] = useState<LanguageCode>('es');
   const content = useMemo(() => contentByLanguage[language], [language]);
 
@@ -163,5 +188,11 @@ export default function App() {
         </div>
       </footer>
     </div>
+=======
+  return (
+    <LanguageProvider>
+      <AppContent />
+    </LanguageProvider>
+ main
   );
 }

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
@@ -13,11 +14,21 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+=======
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+ main
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
     "@testing-library/react": "^14.3.1",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -38,5 +49,19 @@
   },
   "engines": {
     "node": ">=20.11.1"
+=======
+    "@testing-library/react": "^14.2.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0",
+    "vitest": "^1.5.0"
+ main
   }
 }
