@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">IO Favicon</title>
+  <defs>
+    <radialGradient id="ioGold" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#F8E08E" />
+      <stop offset="60%" stop-color="#F5C542" />
+      <stop offset="100%" stop-color="#C89D2A" />
+    </radialGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#0B0F14" />
+  <circle cx="50" cy="50" r="38" fill="none" stroke="url(#ioGold)" stroke-width="10" />
+  <circle cx="50" cy="50" r="15" fill="#5C7CFA" />
+</svg>

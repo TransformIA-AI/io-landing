@@ -1,0 +1,10 @@
+{
+  "name": "IO",
+  "short_name": "IO",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "theme_color": "#0B0F14",
+  "background_color": "#0B0F14",
+  "display": "standalone"
+}
