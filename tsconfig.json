@@ -1,5 +1,19 @@
 {
   "compilerOptions": {
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+=======
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -14,9 +28,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+ main
     "jsx": "react-jsx",
     "types": ["vitest/globals", "@testing-library/jest-dom"]
   },
   "include": ["src"],
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
+  "references": [{ "path": "tsconfig.node.json" }]
+=======
   "references": [{ "path": "./tsconfig.node.json" }]
+ main
 }

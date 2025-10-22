@@ -1,4 +1,12 @@
 node_modules
+ transformia/convert-react-code-to-modern-landing-page/2025-10-22-00-22-49
+.DS_Store
+dist
+.env
+npm-debug.log*
+.vscode
+coverage
+=======
 .dist
 .vscode
 .DS_Store
@@ -10,3 +18,4 @@ package-lock.json
 coverage
 .vitest
 .idea
+ main
