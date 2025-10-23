@@ -1,21 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#0B0F14"/>
-  <g transform="translate(100,120)">
-    <defs>
-      <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#F8E08E"/>
-        <stop offset="60%" stop-color="#F5C542"/>
-        <stop offset="100%" stop-color="#C89D2A"/>
-      </linearGradient>
-    </defs>
-    <circle cx="80" cy="80" r="60" fill="none" stroke="url(#gold)" stroke-width="10"/>
-    <circle cx="80" cy="80" r="12" fill="#F8E08E"/>
-    <text x="180" y="90" fill="#E5E7EB" font-size="56" font-family="system-ui, -apple-system, 'Segoe UI', Inter, Arial" font-weight="700">
-      IO · Resonance AI
-    </text>
-    <text x="180" y="150" fill="#94A3B8" font-size="30" font-family="system-ui, -apple-system, 'Segoe UI', Inter, Arial">
-      Capa de decisión resonante
-    </text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0B0F14" />
+  <circle cx="600" cy="315" r="180" fill="none" stroke="#d3a03f" stroke-width="12" />
+  <circle cx="600" cy="315" r="28" fill="#d3a03f" />
+  <text x="600" y="160" fill="#ffffff" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="600" text-anchor="middle" letter-spacing="0.08em">
+    IO · Resonance AI
+  </text>
+  <text x="600" y="470" fill="#d3a03f" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="36" text-anchor="middle" letter-spacing="0.12em">
+    Capa de decisión resonante
+  </text>
 </svg>
